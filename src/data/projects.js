@@ -1,18 +1,34 @@
 export const projects = [
   {
-    title: "Diagnóstico de Segurança Digital",
+    title: "Análise de Sentimentos em Tweets na rede social Twitter/X",
     description:
-      "Aplicação para criação e acompanhamento de diagnósticos de segurança digital, com autenticação, cálculo de maturidade, recomendações automáticas, histórico e geração de relatórios.",
+      "Projeto de Processamento de Linguagem Natural e Machine Learning para classificação de sentimentos em tweets. O projeto realiza análise exploratória, limpeza e pré-processamento dos textos, vetorização com TF-IDF e treinamento de um modelo Naive Bayes para identificar sentimentos positivos e negativos.",
     technologies: [
-      "JavaScript",
-      "Supabase",
-      "Node.js",
-      "HTML",
-      "CSS",
+      "Python",
+      "Pandas",
+      "Jupyter Notebook",
+      "NumPy",
+      "Matplotlib",
+      "Scikit-learn",
+      "NLP",
+      "TF-IDF",
+      "NLTK",
+      "WordCloud"
     ],
-    image: "/projects/diagnostico.png",
-    github: "https://github.com/isabvenancio/stmgo-diagnostico",
+    image: "/projects/twitter.png",
+    github: "https://github.com/isabvenancio/stmgo-sentimentos",
     demo: "",
+    features: [
+      "Análise exploratória dos dados",
+      "Limpeza e pré-processamento de textos",
+      "Análise da distribuição de sentimentos",
+      "Identificação das palavras mais frequentes",
+      "Vetorização dos textos com TF-IDF",
+      "Treinamento de modelo Naive Bayes",
+      "Classificação de sentimentos",
+      "Avaliação da acurácia do modelo",
+      "Visualização dos resultados"
+    ],
     featured: true,
   },
 
@@ -74,17 +90,29 @@ export const projects = [
   {
     title: "MovieMatch AI",
     description:
-      "Sistema de recomendação de filmes baseado em conteúdo, utilizando Machine Learning e NLP para encontrar produções semelhantes a partir de gêneros, elenco, diretor e palavras-chave.",
+      "Aplicação web de recomendação de filmes utilizando Machine Learning e Processamento de Linguagem Natural. O sistema analisa características como sinopse, gêneros, palavras-chave, elenco e direção para identificar filmes semelhantes e apresentar recomendações personalizadas.",
     technologies: [
       "Python",
-      "Scikit-learn",
-      "Pandas",
       "Streamlit",
-      "NLP",
+      "Jupyter Notebook",
+      "Pandas",
+      "Scikit-learn",
+      "Requests",
+      "TMDB API",
     ],
-    image: "/projects/movies.png",
+    image: "/projects/moviematch.png",
     github: "https://github.com/isabvenancio/Recomendador_de_Filmes",
-    demo: "",
+    demo: "https://recomendadordefilmes.streamlit.app/",
+    features: [
+      "Recomendação de filmes por similaridade",
+      "Pesquisa e seleção de filmes",
+      "Recomendações baseadas em conteúdo",
+      "Exibição de pôsteres e informações dos filmes",
+      "Integração com a API do TMDB",
+      "Avaliação, gêneros, lançamento e sinopse",
+      "Interface web em Streamlit",
+      "Carregamento otimizado do modelo pré-processado"
+    ],
     featured: true,
   },
 
