@@ -2086,3 +2086,37 @@ button:focus-visible {
     transform: none;
   }
 }
+
+.project-features {
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+
+  margin-top: 18px;
+
+  color: var(--text-secondary);
+
+  font-size: 0.78rem;
+}
+
+.project-features span {
+  display: flex;
+  align-items: center;
+}.project-features {
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+
+  margin-top: 18px;
+
+  color: var(--text-secondary);
+
+  font-size: 0.78rem;
+}
+
+.project-features span {
+  display: flex;
+  align-items: center;
+}

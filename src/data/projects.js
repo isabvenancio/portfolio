@@ -17,35 +17,57 @@ export const projects = [
   },
 
   {
-    title: "Raio-X de Infraestrutura",
+    title: "Monitor de Preços",
     description:
-      "Aplicação web voltada ao levantamento e organização de informações de infraestrutura de TI, com persistência de dados e geração de documentos.",
+      "Aplicação desenvolvida em Python para monitoramento de preços em lojas online. Utiliza Web Scraping com Selenium para consultar preços, registra o histórico das verificações em CSV e envia alertas quando o valor atinge o preço desejado.",
     technologies: [
-      "Next.js",
-      "React",
-      "TypeScript",
-      "Supabase",
-      "Tailwind CSS",
+      "Python",
+      "Selenium",
+      "Pandas",
+      "SMTP",
+      "CSV"
     ],
-    image: "/projects/raiox.png",
-    github: "https://github.com/isabvenancio/raio-x-infraestrutura",
+    features: [
+      "Web Scraping com Selenium",
+      "Monitoramento de preços",
+      "Comparação com preço desejado",
+      "Histórico em CSV",
+      "Alertas por e-mail",
+      "Configuração de produtos"
+    ],
+    image: "/projects/monitor_precos.webp",
+    github:
+      "https://github.com/isabvenancio/Monitor_de_Precos",
     demo: "",
-    featured: true,
+    featured: true
   },
 
   {
     title: "Tracker de Interações",
     description:
-      "Aplicação para registro e acompanhamento de interações, utilizando frontend com Vite e integração com Supabase para armazenamento e atualização dos dados.",
+      "Aplicação web para acompanhamento de projetos, interações com clientes e desempenho das entregas. Possui dashboard com indicadores, gráficos, filtros, gerenciamento de projetos, acompanhamento de progresso, impedimentos, responsáveis e histórico de interações.",
     technologies: [
       "JavaScript",
       "Vite",
       "Supabase",
-      "Vercel",
+      "PostgreSQL",
+      "Chart.js",
+      "Lucide",
+      "Vercel Analytics",
     ],
     image: "/projects/tracker.png",
     github: "https://github.com/isabvenancio/Tracker_Interacoes2.5",
     demo: "",
+    features: [
+      "Dashboard de projetos",
+      "Indicadores de desempenho",
+      "Gráficos e análises",
+      "Filtros por projeto",
+      "Acompanhamento de progresso",
+      "Gestão de projetos ativos e arquivados",
+      "Atualizações em tempo real",
+      "Exportação e impressão"
+      ],
     featured: true,
   },
 
@@ -69,31 +91,58 @@ export const projects = [
   {
     title: "API de Controle de Gastos",
     description:
-      "API REST para gerenciamento de despesas com cadastro, edição, filtros e dashboard com métricas e gráficos para análise dos gastos.",
+      "API REST desenvolvida em Python com FastAPI para gerenciamento de despesas, utilizando modelos com validação, organização em rotas e serviços e persistência dos dados em JSON. O repositório também possui um dashboard web de apoio para visualização e interação com os gastos.",
     technologies: [
       "Python",
       "FastAPI",
       "JavaScript",
       "Chart.js",
       "REST API",
+      "HTML",
+      "CSS",
+      "Pydantic",
+      "JSON",
     ],
-    image: "/projects/gastos.png",
+    image: "/projects/api_gastos.png",
     github: "https://github.com/isabvenancio/API_de_Gastos",
     demo: "",
-    featured: false,
+    features: [
+      "API REST",
+      "Validação de dados",
+      "Filtros por categoria",
+      "Busca de gastos",
+      "Persistência em JSON",
+      "Dashboard com gráficos"
+    ],
+    featured: true,
   },
 
   {
     title: "Analisador de CSV & Excel",
     description:
-      "Ferramenta em Python para leitura de arquivos CSV e Excel, cálculo de estatísticas descritivas e aplicação de filtros personalizados sobre os dados.",
+      "Aplicação desktop desenvolvida em Python para análise de arquivos CSV e Excel, com interface gráfica, dashboard de indicadores, estatísticas descritivas, filtros avançados, busca de dados, geração de gráficos e exportação de relatórios.",
     technologies: [
       "Python",
       "Pandas",
       "OpenPyXL",
       "Data Analysis",
+      "CustomTkinter",
+      "Matplotlib",
+      "Seaborn",
     ],
-    image: "/projects/analisador.png",
+    features: [
+      "Importação de arquivos CSV e Excel",
+      "Visualização dos dados em tabela",
+      "Pesquisa de registros",
+      "Dashboard com indicadores",
+      "Estatísticas descritivas",
+      "Filtros por coluna e operador",
+      "Aplicação de múltiplos filtros",
+      "Geração de histogramas e gráficos de barras",
+      "Matriz de correlação",
+      "Exportação de relatórios para Excel"
+    ],
+    image: "/projects/analisador_csv_excel.png",
     github: "https://github.com/isabvenancio/Analisador_de_CSV-Excel",
     demo: "",
     featured: false,

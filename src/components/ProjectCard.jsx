@@ -49,6 +49,16 @@ function ProjectCard({ project }) {
           ))}
         </div>
 
+        {project.features && (
+          <div className="project-features">
+            {project.features.slice(0, 3).map((feature) => (
+              <span key={feature}>
+                ✓ {feature}
+              </span>
+            ))}
+          </div>
+        )}        
+
         <div className="project-links">
           {project.github ? (
             <a
